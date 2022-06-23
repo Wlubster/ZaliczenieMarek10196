@@ -152,7 +152,7 @@ with open("test.json", "r") as j:
 
 
     except IndexError:
-        print("")
+        print("aj")
 
     finally:
         j.close()
@@ -165,7 +165,7 @@ if q1 == "Track":
 
 
 
-#sieeeeeema121312
+
 #json_object = json.loads("test.json")
 #print(json_object["name"])
 
