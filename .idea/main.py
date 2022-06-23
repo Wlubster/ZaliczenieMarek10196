@@ -136,10 +136,14 @@ with open("test.json", "r") as j:
 
                     try:
                         my_list.append(contents[q1.lower() + "s"]["items"][i]["preview_url"])
+                        print("Preview url: " + contents[q1.lower() + "s"]["items"][i]["preview_url"])
+                    except TypeError:
+                        print("Nie ma podglądu!")
+
                     finally:
                         musicNumber += 1
                         print("Music Number: " + str(musicNumber))
-                    print("Preview url: " + contents[q1.lower() + "s"]["items"][i]["preview_url"])
+                    #print("Preview url: " + contents[q1.lower() + "s"]["items"][i]["preview_url"])
                     print("Popularity: " + str(contents[q1.lower()+"s"]["items"][i]["popularity"]))
 
 
@@ -161,7 +165,7 @@ if q1 == "Track":
 
 
 
-
+#testGit
 #json_object = json.loads("test.json")
 #print(json_object["name"])
 
