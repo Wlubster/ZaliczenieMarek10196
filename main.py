@@ -152,7 +152,7 @@ with open("test.json", "r") as j:
 
 
     except IndexError:
-        print("")
+        print("hejka")
 
     finally:
         j.close()
