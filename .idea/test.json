@@ -1,0 +1,505 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=twoje+zdrowie&type=track&offset=0&limit=20",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3voEWhgzTvdrMTwJDmUUG9"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3voEWhgzTvdrMTwJDmUUG9",
+          "id" : "3voEWhgzTvdrMTwJDmUUG9",
+          "name" : "Japczan",
+          "type" : "artist",
+          "uri" : "spotify:artist:3voEWhgzTvdrMTwJDmUUG9"
+        } ],
+        "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6pTcFh3kbeEtZiS8X6Jy2I"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6pTcFh3kbeEtZiS8X6Jy2I",
+        "id" : "6pTcFh3kbeEtZiS8X6Jy2I",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b27321abe1f611d6cf9a65f8126e",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e0221abe1f611d6cf9a65f8126e",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d0000485121abe1f611d6cf9a65f8126e",
+          "width" : 64
+        } ],
+        "name" : "Twoje Zdrowie",
+        "release_date" : "2021-08-13",
+        "release_date_precision" : "day",
+        "total_tracks" : 1,
+        "type" : "album",
+        "uri" : "spotify:album:6pTcFh3kbeEtZiS8X6Jy2I"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3voEWhgzTvdrMTwJDmUUG9"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3voEWhgzTvdrMTwJDmUUG9",
+        "id" : "3voEWhgzTvdrMTwJDmUUG9",
+        "name" : "Japczan",
+        "type" : "artist",
+        "uri" : "spotify:artist:3voEWhgzTvdrMTwJDmUUG9"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "disc_number" : 1,
+      "duration_ms" : 172750,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "PLC062115893"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/32bYIhlVganxHYgyV1K8B2"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/32bYIhlVganxHYgyV1K8B2",
+      "id" : "32bYIhlVganxHYgyV1K8B2",
+      "is_local" : false,
+      "name" : "Twoje Zdrowie",
+      "popularity" : 50,
+      "preview_url" : "https://p.scdn.co/mp3-preview/994f4d29dd2992d0e7beb60a53177f935fdc0650?cid=62aadb1a5ed64823bd2ea0367892d4e4",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:32bYIhlVganxHYgyV1K8B2"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5kZvqGAkHVkwBydLGjhVXk"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5kZvqGAkHVkwBydLGjhVXk",
+          "id" : "5kZvqGAkHVkwBydLGjhVXk",
+          "name" : "BetiBer",
+          "type" : "artist",
+          "uri" : "spotify:artist:5kZvqGAkHVkwBydLGjhVXk"
+        } ],
+        "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4VWUfkgB3TAh6B7GOvX2WQ"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4VWUfkgB3TAh6B7GOvX2WQ",
+        "id" : "4VWUfkgB3TAh6B7GOvX2WQ",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b2735d0d17dd69c95e26cf1ca643",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e025d0d17dd69c95e26cf1ca643",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d000048515d0d17dd69c95e26cf1ca643",
+          "width" : 64
+        } ],
+        "name" : "ChodŸ do Mnie",
+        "release_date" : "2018-04-14",
+        "release_date_precision" : "day",
+        "total_tracks" : 14,
+        "type" : "album",
+        "uri" : "spotify:album:4VWUfkgB3TAh6B7GOvX2WQ"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5kZvqGAkHVkwBydLGjhVXk"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5kZvqGAkHVkwBydLGjhVXk",
+        "id" : "5kZvqGAkHVkwBydLGjhVXk",
+        "name" : "BetiBer",
+        "type" : "artist",
+        "uri" : "spotify:artist:5kZvqGAkHVkwBydLGjhVXk"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "disc_number" : 1,
+      "duration_ms" : 188114,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "PLA881800011"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5yUATkyMO916dlxXwXOP2U"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5yUATkyMO916dlxXwXOP2U",
+      "id" : "5yUATkyMO916dlxXwXOP2U",
+      "is_local" : false,
+      "name" : "Twoje Zdrowie",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/23ab077ba5679fb60ee535c020e039e8858d680b?cid=62aadb1a5ed64823bd2ea0367892d4e4",
+      "track_number" : 12,
+      "type" : "track",
+      "uri" : "spotify:track:5yUATkyMO916dlxXwXOP2U"
+    }, {
+      "album" : {
+        "album_type" : "compilation",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2DpekXykbBQmFqgnIJF4FG"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2DpekXykbBQmFqgnIJF4FG",
+          "id" : "2DpekXykbBQmFqgnIJF4FG",
+          "name" : "Imperium",
+          "type" : "artist",
+          "uri" : "spotify:artist:2DpekXykbBQmFqgnIJF4FG"
+        } ],
+        "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/2PstcV6v9pSx03eD4UPmY9"
+        },
+        "href" : "https://api.spotify.com/v1/albums/2PstcV6v9pSx03eD4UPmY9",
+        "id" : "2PstcV6v9pSx03eD4UPmY9",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b273caeb664216f7359d2185c89a",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e02caeb664216f7359d2185c89a",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d00004851caeb664216f7359d2185c89a",
+          "width" : 64
+        } ],
+        "name" : "The Best Of Imperium i Nie Tylko",
+        "release_date" : "2006-01-01",
+        "release_date_precision" : "day",
+        "total_tracks" : 11,
+        "type" : "album",
+        "uri" : "spotify:album:2PstcV6v9pSx03eD4UPmY9"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2DpekXykbBQmFqgnIJF4FG"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2DpekXykbBQmFqgnIJF4FG",
+        "id" : "2DpekXykbBQmFqgnIJF4FG",
+        "name" : "Imperium",
+        "type" : "artist",
+        "uri" : "spotify:artist:2DpekXykbBQmFqgnIJF4FG"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "disc_number" : 1,
+      "duration_ms" : 205625,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "PLH751400030"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3fpAzLDROK6VXAAdpGkYoF"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3fpAzLDROK6VXAAdpGkYoF",
+      "id" : "3fpAzLDROK6VXAAdpGkYoF",
+      "is_local" : false,
+      "name" : "Twoje Zdrowie",
+      "popularity" : 1,
+      "preview_url" : "https://p.scdn.co/mp3-preview/948ac2307e28c54736d2a2b0f0a4a7a0d352049e?cid=62aadb1a5ed64823bd2ea0367892d4e4",
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:3fpAzLDROK6VXAAdpGkYoF"
+    }, {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5usEt3MbHTOuAG4eDbsAQj"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5usEt3MbHTOuAG4eDbsAQj",
+          "id" : "5usEt3MbHTOuAG4eDbsAQj",
+          "name" : "Marta Barczok",
+          "type" : "artist",
+          "uri" : "spotify:artist:5usEt3MbHTOuAG4eDbsAQj"
+        } ],
+        "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5Siy0zDkS7m4qUpK2xeusi"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5Siy0zDkS7m4qUpK2xeusi",
+        "id" : "5Siy0zDkS7m4qUpK2xeusi",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b273b3e150e130f913ebe7a77077",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e02b3e150e130f913ebe7a77077",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d00004851b3e150e130f913ebe7a77077",
+          "width" : 64
+        } ],
+        "name" : "Twoje Zdrowie",
+        "release_date" : "2018-05-25",
+        "release_date_precision" : "day",
+        "total_tracks" : 1,
+        "type" : "album",
+        "uri" : "spotify:album:5Siy0zDkS7m4qUpK2xeusi"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5usEt3MbHTOuAG4eDbsAQj"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5usEt3MbHTOuAG4eDbsAQj",
+        "id" : "5usEt3MbHTOuAG4eDbsAQj",
+        "name" : "Marta Barczok",
+        "type" : "artist",
+        "uri" : "spotify:artist:5usEt3MbHTOuAG4eDbsAQj"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "disc_number" : 1,
+      "duration_ms" : 225751,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "usdy41892658"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3fnIUrJcWE1MZbYDdxJxUK"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3fnIUrJcWE1MZbYDdxJxUK",
+      "id" : "3fnIUrJcWE1MZbYDdxJxUK",
+      "is_local" : false,
+      "name" : "Twoje Zdrowie",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/a03a15ae15bf7d1b6284be609907c924fd18ac1e?cid=62aadb1a5ed64823bd2ea0367892d4e4",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:3fnIUrJcWE1MZbYDdxJxUK"
+    }, {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1Fb0wwrwSynD46Sg7bmmwY"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1Fb0wwrwSynD46Sg7bmmwY",
+          "id" : "1Fb0wwrwSynD46Sg7bmmwY",
+          "name" : "Powi",
+          "type" : "artist",
+          "uri" : "spotify:artist:1Fb0wwrwSynD46Sg7bmmwY"
+        } ],
+        "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5cnCGOh9QqeuES9cprH3qP"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5cnCGOh9QqeuES9cprH3qP",
+        "id" : "5cnCGOh9QqeuES9cprH3qP",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b27388581fcb951092c006c391f6",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e0288581fcb951092c006c391f6",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d0000485188581fcb951092c006c391f6",
+          "width" : 64
+        } ],
+        "name" : "Za Twoje Zdrowie",
+        "release_date" : "2020-03-23",
+        "release_date_precision" : "day",
+        "total_tracks" : 1,
+        "type" : "album",
+        "uri" : "spotify:album:5cnCGOh9QqeuES9cprH3qP"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1Fb0wwrwSynD46Sg7bmmwY"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1Fb0wwrwSynD46Sg7bmmwY",
+        "id" : "1Fb0wwrwSynD46Sg7bmmwY",
+        "name" : "Powi",
+        "type" : "artist",
+        "uri" : "spotify:artist:1Fb0wwrwSynD46Sg7bmmwY"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "disc_number" : 1,
+      "duration_ms" : 229971,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBSMU7762464"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3McvZEoGD1oP9h2kXc897w"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3McvZEoGD1oP9h2kXc897w",
+      "id" : "3McvZEoGD1oP9h2kXc897w",
+      "is_local" : false,
+      "name" : "Za Twoje Zdrowie",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/c12642fd99e6f25d67f791240d1ca16827a3f87f?cid=62aadb1a5ed64823bd2ea0367892d4e4",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:3McvZEoGD1oP9h2kXc897w"
+    }, {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1Fb0wwrwSynD46Sg7bmmwY"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1Fb0wwrwSynD46Sg7bmmwY",
+          "id" : "1Fb0wwrwSynD46Sg7bmmwY",
+          "name" : "Powi",
+          "type" : "artist",
+          "uri" : "spotify:artist:1Fb0wwrwSynD46Sg7bmmwY"
+        }, {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4N21etJYvERHMQbVzuRd1d"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4N21etJYvERHMQbVzuRd1d",
+          "id" : "4N21etJYvERHMQbVzuRd1d",
+          "name" : "Arthur Forrest",
+          "type" : "artist",
+          "uri" : "spotify:artist:4N21etJYvERHMQbVzuRd1d"
+        } ],
+        "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4zTxmEFYLj5FxCX3MlSMyl"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4zTxmEFYLj5FxCX3MlSMyl",
+        "id" : "4zTxmEFYLj5FxCX3MlSMyl",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b273979d3b32d373473b79ffa9df",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e02979d3b32d373473b79ffa9df",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d00004851979d3b32d373473b79ffa9df",
+          "width" : 64
+        } ],
+        "name" : "Za Twoje Zdrowie (Arthur Forrest Remix)",
+        "release_date" : "2020-04-08",
+        "release_date_precision" : "day",
+        "total_tracks" : 1,
+        "type" : "album",
+        "uri" : "spotify:album:4zTxmEFYLj5FxCX3MlSMyl"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1Fb0wwrwSynD46Sg7bmmwY"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1Fb0wwrwSynD46Sg7bmmwY",
+        "id" : "1Fb0wwrwSynD46Sg7bmmwY",
+        "name" : "Powi",
+        "type" : "artist",
+        "uri" : "spotify:artist:1Fb0wwrwSynD46Sg7bmmwY"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4N21etJYvERHMQbVzuRd1d"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4N21etJYvERHMQbVzuRd1d",
+        "id" : "4N21etJYvERHMQbVzuRd1d",
+        "name" : "Arthur Forrest",
+        "type" : "artist",
+        "uri" : "spotify:artist:4N21etJYvERHMQbVzuRd1d"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "disc_number" : 1,
+      "duration_ms" : 232530,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBSMU7865056"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3EfwQXQ6bsUyrOqdxoJ8Ne"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3EfwQXQ6bsUyrOqdxoJ8Ne",
+      "id" : "3EfwQXQ6bsUyrOqdxoJ8Ne",
+      "is_local" : false,
+      "name" : "Za Twoje Zdrowie (Arthur Forrest Remix)",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/9e781a55353f0a79f85e1efa083cdf2dac3c016d?cid=62aadb1a5ed64823bd2ea0367892d4e4",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:3EfwQXQ6bsUyrOqdxoJ8Ne"
+    }, {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/67rXxo4HeL2NfTLFe7CENv"
+          },
+          "href" : "https://api.spotify.com/v1/artists/67rXxo4HeL2NfTLFe7CENv",
+          "id" : "67rXxo4HeL2NfTLFe7CENv",
+          "name" : "Magda Durecka",
+          "type" : "artist",
+          "uri" : "spotify:artist:67rXxo4HeL2NfTLFe7CENv"
+        } ],
+        "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4jAEnz8yW32yiijrkzJ4T3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4jAEnz8yW32yiijrkzJ4T3",
+        "id" : "4jAEnz8yW32yiijrkzJ4T3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b273fc6975cf22061f30af4dcd44",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e02fc6975cf22061f30af4dcd44",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d00004851fc6975cf22061f30af4dcd44",
+          "width" : 64
+        } ],
+        "name" : "Magda Dance Party, Vol. 2",
+        "release_date" : "1994-12-01",
+        "release_date_precision" : "day",
+        "total_tracks" : 6,
+        "type" : "album",
+        "uri" : "spotify:album:4jAEnz8yW32yiijrkzJ4T3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/67rXxo4HeL2NfTLFe7CENv"
+        },
+        "href" : "https://api.spotify.com/v1/artists/67rXxo4HeL2NfTLFe7CENv",
+        "id" : "67rXxo4HeL2NfTLFe7CENv",
+        "name" : "Magda Durecka",
+        "type" : "artist",
+        "uri" : "spotify:artist:67rXxo4HeL2NfTLFe7CENv"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "disc_number" : 1,
+      "duration_ms" : 386000,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "PLG941201369"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/61w1awrjai5gFLSExS1NvE"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/61w1awrjai5gFLSExS1NvE",
+      "id" : "61w1awrjai5gFLSExS1NvE",
+      "is_local" : false,
+      "name" : "Malinowy król / Bogowie I demony / Totalna hipnoza / Fatamorgana / Za twoje zdrowie ma³a (Fatamorgana Mix)",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/b81f37610a5ae2c1b6e09ace4fbedc6f9136d40f?cid=62aadb1a5ed64823bd2ea0367892d4e4",
+      "track_number" : 5,
+      "type" : "track",
+      "uri" : "spotify:track:61w1awrjai5gFLSExS1NvE"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 7
+  }
+}
