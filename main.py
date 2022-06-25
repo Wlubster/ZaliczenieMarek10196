@@ -1,6 +1,4 @@
 import datetime
-import json
-import webbrowser
 import time
 
 import requests
@@ -9,9 +7,7 @@ from urllib.parse import urlencode
 
 from selenium import webdriver
 
-
-
-
+import find
 
 client_id = '62aadb1a5ed64823bd2ea0367892d4e4'
 client_secret = 'e1f07508bbd94178807802e75d647489'
@@ -74,102 +70,59 @@ access_token = spotify.access_token
 headers = {
     "Authorization": f"Bearer {access_token}"
 }
-r1 = requests.get("https://api.spotify.com/v1/artists/1oxn6cQ37twQ7yGnlE3ETd", headers=headers)
+#r1 = requests.get("https://api.spotify.com/v1/artists/1oxn6cQ37twQ7yGnlE3ETd", headers=headers)
 #print(r1.text)
 #print("------------------------------------------------")
 endpoint = "https://api.spotify.com/v1/search"
 print("""Co chcesz wyszukać?: 
-1. Album
+1. Track with Artist
 2. Artist
 3. Track
 """)
 choice = int(input("Podaj cyfre: "))
 
 if choice == 1:
-    query = input("Name of the album: ")
-    q1 = "Album"
+    query = input("Name of the Track: ")
+    queryA = input("Name of the Artist: ")
+    q1 = "Track"
+
+    link = "https://api.spotify.com/v1/search?type=track&q=artist:" + queryA.lower() + "+track:" + query
+    r = requests.get(link, headers=headers)
+
 if choice == 2:
     query = input("Name of the Artist: ")
     q1 = "Artist"
+    data = urlencode({"q": query, "type": q1.lower()})
+    lookup_url = f"{endpoint}?{data}"
+    r = requests.get(lookup_url, headers=headers)
 if choice == 3:
-    query = input("Name of the track: ")
+    query = input("Name of the Track: ")
     q1 = "Track"
 
-#query = input("artysta")
-#print(query.title())
+    data = urlencode({"q": query, "type": q1.lower()})
+    lookup_url = f"{endpoint}?{data}"
+    r = requests.get(lookup_url, headers=headers)
 
-data = urlencode({"q": query, "type": q1.lower()})
-lookup_url = f"{endpoint}?{data}"
-r = requests.get(lookup_url, headers=headers)
 
-f = open("test.json", "w")
+f = open("search.json", "w", encoding="utf-8")
 f.write(r.text)
 f.close()
 
-f = open("test.json", "r")
+f = open("search.json", "r", encoding="utf-8")
 f.close()
-json_file_path = "test.json"
-
-my_list = [+1]
-musicNumber = 0
-
-with open("test.json", "r") as j:
-
-    try:
-
-        contents = json.load(j)
-
-        for i in range(len("test.json")):
-
-            if contents[q1.lower()+"s"]["items"][i]["name"] == query.title():
-                print(i)
-                print("Name: " + contents[q1.lower()+"s"]["items"][i]["name"])
-
-                if q1.lower()+"s" == "artists":
-                    print(contents[q1.lower() + "s"]["items"][i]["genres"])
-                    print(contents[q1.lower() + "s"]["items"][i]["popularity"])
-
-                if q1.lower()+"s" == "tracks":
-                    #print(list(contents.keys()))
-                    print("Type: " + contents[q1.lower() + "s"]["items"][i]["type"])
-                    print("Author: " + contents[q1.lower() + "s"]["items"][i]["album"]["artists"][0]["name"])
-
-                    try:
-                        my_list.append(contents[q1.lower() + "s"]["items"][i]["preview_url"])
-                        print("Preview url: " + contents[q1.lower() + "s"]["items"][i]["preview_url"])
-                    except TypeError:
-                        print("Nie ma podglądu!")
-
-                    finally:
-                        musicNumber += 1
-                        print("Music Number: " + str(musicNumber))
-                    #print("Preview url: " + contents[q1.lower() + "s"]["items"][i]["preview_url"])
-                    print("Popularity: " + str(contents[q1.lower()+"s"]["items"][i]["popularity"]))
+json_file_path = "search.json"
 
 
-                print(contents[q1.lower()+"s"]["items"][i]["uri"])
-                print("[--------------------------------------]")
-
-
-    except IndexError:
-        print("hejka")
-
-    finally:
-        j.close()
+music = find.Find(q1, query)
+#Funkcja poniżej służy do włączenia podglądu wybranej piosenki(30 sec, jeśli piosenka posiada)
 
 if q1 == "Track":
-    musicP = int(input("która nuta?: "))
-    #webbrowser.open(my_list[musicP])
+    print("UWAGA NA USZY")
+    for i in range(5, 0, -1):
+        print(i)
+        time.sleep(1)
     driver = webdriver.Chrome()
-    driver.get(my_list[musicP])
-
-
-
-
-#json_object = json.loads("test.json")
-#print(json_object["name"])
-
-#print(r.json()['name'])
-#j = r.json()
-#json_object = json.loads(j)
-#print(json_object["name"])
+    driver.get(music)
+if q1 == "Artist":
+    driver = webdriver.Chrome()
+    driver.get(music)

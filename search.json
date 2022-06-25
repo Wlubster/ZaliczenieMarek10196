@@ -1,0 +1,310 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=%C5%9Bciernisco&type=track&offset=0&limit=20",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/7sYIwdHZoqVUh6i58SJrmx"
+          },
+          "href" : "https://api.spotify.com/v1/artists/7sYIwdHZoqVUh6i58SJrmx",
+          "id" : "7sYIwdHZoqVUh6i58SJrmx",
+          "name" : "GOLEC UORKIESTRA",
+          "type" : "artist",
+          "uri" : "spotify:artist:7sYIwdHZoqVUh6i58SJrmx"
+        } ],
+        "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4qoKr43sOxGA5VTHBfjmZV"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4qoKr43sOxGA5VTHBfjmZV",
+        "id" : "4qoKr43sOxGA5VTHBfjmZV",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b273b804c5e1015862b1597c12a5",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e02b804c5e1015862b1597c12a5",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d00004851b804c5e1015862b1597c12a5",
+          "width" : 64
+        } ],
+        "name" : "Golec uOrkiestra 2",
+        "release_date" : "2000-10-04",
+        "release_date_precision" : "day",
+        "total_tracks" : 13,
+        "type" : "album",
+        "uri" : "spotify:album:4qoKr43sOxGA5VTHBfjmZV"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7sYIwdHZoqVUh6i58SJrmx"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7sYIwdHZoqVUh6i58SJrmx",
+        "id" : "7sYIwdHZoqVUh6i58SJrmx",
+        "name" : "GOLEC UORKIESTRA",
+        "type" : "artist",
+        "uri" : "spotify:artist:7sYIwdHZoqVUh6i58SJrmx"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "disc_number" : 1,
+      "duration_ms" : 212088,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "PLD271200015"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/4sAPyrIRUVKCax5d1bt96D"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/4sAPyrIRUVKCax5d1bt96D",
+      "id" : "4sAPyrIRUVKCax5d1bt96D",
+      "is_local" : false,
+      "name" : "Ściernisco",
+      "popularity" : 47,
+      "preview_url" : "https://p.scdn.co/mp3-preview/059deca84d926398236beddecb666156b427f08c?cid=62aadb1a5ed64823bd2ea0367892d4e4",
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:4sAPyrIRUVKCax5d1bt96D"
+    }, {
+      "album" : {
+        "album_type" : "compilation",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/7sYIwdHZoqVUh6i58SJrmx"
+          },
+          "href" : "https://api.spotify.com/v1/artists/7sYIwdHZoqVUh6i58SJrmx",
+          "id" : "7sYIwdHZoqVUh6i58SJrmx",
+          "name" : "GOLEC UORKIESTRA",
+          "type" : "artist",
+          "uri" : "spotify:artist:7sYIwdHZoqVUh6i58SJrmx"
+        } ],
+        "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/18sgNBBHt9oCaSVLEieBft"
+        },
+        "href" : "https://api.spotify.com/v1/albums/18sgNBBHt9oCaSVLEieBft",
+        "id" : "18sgNBBHt9oCaSVLEieBft",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b273a9e02ab7c25ffc6927923659",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e02a9e02ab7c25ffc6927923659",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d00004851a9e02ab7c25ffc6927923659",
+          "width" : 64
+        } ],
+        "name" : "The Best of Golec uOrkiestra",
+        "release_date" : "2013-10-15",
+        "release_date_precision" : "day",
+        "total_tracks" : 26,
+        "type" : "album",
+        "uri" : "spotify:album:18sgNBBHt9oCaSVLEieBft"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7sYIwdHZoqVUh6i58SJrmx"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7sYIwdHZoqVUh6i58SJrmx",
+        "id" : "7sYIwdHZoqVUh6i58SJrmx",
+        "name" : "GOLEC UORKIESTRA",
+        "type" : "artist",
+        "uri" : "spotify:artist:7sYIwdHZoqVUh6i58SJrmx"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "disc_number" : 1,
+      "duration_ms" : 212038,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "PLD271200015"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3IC84YJoZU8AFtTfN73tqm"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3IC84YJoZU8AFtTfN73tqm",
+      "id" : "3IC84YJoZU8AFtTfN73tqm",
+      "is_local" : false,
+      "name" : "Ściernisco - 2013",
+      "popularity" : 19,
+      "preview_url" : "https://p.scdn.co/mp3-preview/71e08f747cb84c37a0f4b14e0b8828319ac5db0e?cid=62aadb1a5ed64823bd2ea0367892d4e4",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:3IC84YJoZU8AFtTfN73tqm"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/7sYIwdHZoqVUh6i58SJrmx"
+          },
+          "href" : "https://api.spotify.com/v1/artists/7sYIwdHZoqVUh6i58SJrmx",
+          "id" : "7sYIwdHZoqVUh6i58SJrmx",
+          "name" : "GOLEC UORKIESTRA",
+          "type" : "artist",
+          "uri" : "spotify:artist:7sYIwdHZoqVUh6i58SJrmx"
+        }, {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qRlIoh6LhJTvBIxolX4GP"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qRlIoh6LhJTvBIxolX4GP",
+          "id" : "2qRlIoh6LhJTvBIxolX4GP",
+          "name" : "Silesian Art Collective Symphony",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qRlIoh6LhJTvBIxolX4GP"
+        } ],
+        "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5LdPLxZKywuaSnmmQJtBMP"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5LdPLxZKywuaSnmmQJtBMP",
+        "id" : "5LdPLxZKywuaSnmmQJtBMP",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b273e94e74767dd8fc920d1121cf",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e02e94e74767dd8fc920d1121cf",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d00004851e94e74767dd8fc920d1121cf",
+          "width" : 64
+        } ],
+        "name" : "SYMPHOETHNIC",
+        "release_date" : "2020-11-20",
+        "release_date_precision" : "day",
+        "total_tracks" : 20,
+        "type" : "album",
+        "uri" : "spotify:album:5LdPLxZKywuaSnmmQJtBMP"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7sYIwdHZoqVUh6i58SJrmx"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7sYIwdHZoqVUh6i58SJrmx",
+        "id" : "7sYIwdHZoqVUh6i58SJrmx",
+        "name" : "GOLEC UORKIESTRA",
+        "type" : "artist",
+        "uri" : "spotify:artist:7sYIwdHZoqVUh6i58SJrmx"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2qRlIoh6LhJTvBIxolX4GP"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2qRlIoh6LhJTvBIxolX4GP",
+        "id" : "2qRlIoh6LhJTvBIxolX4GP",
+        "name" : "Silesian Art Collective Symphony",
+        "type" : "artist",
+        "uri" : "spotify:artist:2qRlIoh6LhJTvBIxolX4GP"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2oRTLExi1ct74cVtfAwfhV"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2oRTLExi1ct74cVtfAwfhV",
+        "id" : "2oRTLExi1ct74cVtfAwfhV",
+        "name" : "Gromee",
+        "type" : "artist",
+        "uri" : "spotify:artist:2oRTLExi1ct74cVtfAwfhV"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "disc_number" : 1,
+      "duration_ms" : 299583,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "PLD272000009"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/0KCD2vGDEW7mvgARqx1dP3"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/0KCD2vGDEW7mvgARqx1dP3",
+      "id" : "0KCD2vGDEW7mvgARqx1dP3",
+      "is_local" : false,
+      "name" : "ŚCIERNISCO - Live",
+      "popularity" : 13,
+      "preview_url" : "https://p.scdn.co/mp3-preview/fd91edb65420dd7daad84c767caa434959616656?cid=62aadb1a5ed64823bd2ea0367892d4e4",
+      "track_number" : 8,
+      "type" : "track",
+      "uri" : "spotify:track:0KCD2vGDEW7mvgARqx1dP3"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/7sYIwdHZoqVUh6i58SJrmx"
+          },
+          "href" : "https://api.spotify.com/v1/artists/7sYIwdHZoqVUh6i58SJrmx",
+          "id" : "7sYIwdHZoqVUh6i58SJrmx",
+          "name" : "GOLEC UORKIESTRA",
+          "type" : "artist",
+          "uri" : "spotify:artist:7sYIwdHZoqVUh6i58SJrmx"
+        } ],
+        "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/44BnL03ViybbIo3vecVYT9"
+        },
+        "href" : "https://api.spotify.com/v1/albums/44BnL03ViybbIo3vecVYT9",
+        "id" : "44BnL03ViybbIo3vecVYT9",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b2737fcdd7621df074ea6f46eb4e",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e027fcdd7621df074ea6f46eb4e",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d000048517fcdd7621df074ea6f46eb4e",
+          "width" : 64
+        } ],
+        "name" : "20-LECIE GOLEC UORKIESTRA KATOWICE / SPODEK",
+        "release_date" : "2021-02-01",
+        "release_date_precision" : "day",
+        "total_tracks" : 20,
+        "type" : "album",
+        "uri" : "spotify:album:44BnL03ViybbIo3vecVYT9"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7sYIwdHZoqVUh6i58SJrmx"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7sYIwdHZoqVUh6i58SJrmx",
+        "id" : "7sYIwdHZoqVUh6i58SJrmx",
+        "name" : "GOLEC UORKIESTRA",
+        "type" : "artist",
+        "uri" : "spotify:artist:7sYIwdHZoqVUh6i58SJrmx"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "disc_number" : 1,
+      "duration_ms" : 248358,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "PLD272100014"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1aSsFAhZchDJEQ2gNyQgAL"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1aSsFAhZchDJEQ2gNyQgAL",
+      "id" : "1aSsFAhZchDJEQ2gNyQgAL",
+      "is_local" : false,
+      "name" : "ŚCIERNISCO - LIVE",
+      "popularity" : 9,
+      "preview_url" : "https://p.scdn.co/mp3-preview/427bc3298ef562ccfbe66c999cb4ff8ca80490a2?cid=62aadb1a5ed64823bd2ea0367892d4e4",
+      "track_number" : 14,
+      "type" : "track",
+      "uri" : "spotify:track:1aSsFAhZchDJEQ2gNyQgAL"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 4
+  }
+}
